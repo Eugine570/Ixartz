@@ -1,0 +1,52 @@
+h3, h4, h5, h6, h7 {
+	color: var(--text-c);
+}
+
+h3 {
+	font-size: 4vw;
+}
+
+h4 {
+	font-size: 2.5vw;
+}
+
+h5 {
+	font-size: 2vw;
+}
+
+h6 {
+	font-size: 1.8vw;
+}
+
+p {
+	font-size: 1.5vw;
+	color: var(--text-bl-c);
+}
+@media(max-width: 320px) {
+	h3 {
+		font-size: 20px;
+	}
+
+	h4 {
+		font-size: 15px;
+	}
+
+	h5 {
+		font-size: 12px;
+	}
+
+	h6 {
+		font-size: 10px;
+	}
+
+	p {
+		font-size: 10px;
+		color: var(--text-bl-c);
+	}
+}
+/* ----------------------------------------------------------------- */
+.highlight {
+	background: var(--highlight);
+  	background-clip: text; 
+  	color: transparent;
+}

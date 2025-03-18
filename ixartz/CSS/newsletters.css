@@ -1,0 +1,85 @@
+.newslatters {
+	margin: auto;
+	padding-top: 5vw;
+	padding-bottom: 5vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.newslatters h3 {
+	margin: 0;
+	font-weight: 500;
+	padding-bottom: 1vw;
+}
+.newslatters p {
+	margin: 0;
+}
+.Eform {
+	width: 37vw;
+	height: 5vw;
+	margin-top: 4vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: var(--background);
+	border-radius: 2.1vw;
+}
+.Eform input {
+	background: transparent;
+	border: none;
+	font-size: 1.3vw;
+	padding-left: 2vw;
+	padding-top: 1vw;
+	outline: none;
+	color: white;
+	margin-bottom: 0.9vw;
+}
+.Eform input::placeholder {
+	color: var(--text-bl-c);
+}
+.Eform button {
+	background: var(--highlight);
+	border-radius: 2.1vw;
+	border: none;
+	font-size: 1.5vw;
+	font-weight: 700;
+	width: 12vw;
+	height: 3.3vw;
+	margin-right: 1.2vw;
+}
+.Eform button:hover {  
+    background: linear-gradient(to left, #00bfff, #007aff); 
+}  
+
+@media (max-width:320px) {
+	.newslatters {
+		padding-top: 0;
+		padding-bottom: 27px;
+		padding-left: 8px;
+		flex-direction: column;
+	}
+	.newslatters h3 {
+		padding-bottom: 14px;
+	}
+	.Eform {
+		width: 280px;
+		height: 37.5px;
+		margin-top: 15px;
+		border-radius: 30px;
+	}
+	.Eform input {
+		font-size: 10px;
+		font-weight: 400;
+		padding-left: 18px;
+		padding-top: 1.8px;
+		margin-bottom: 0;
+	}
+	.Eform button {
+		width: 80px;
+		height: 28px;
+		font-size: 10px;
+		font-weight: 700;
+		border-radius: 30px;
+		padding-right: 6px;
+	}
+}
