@@ -1,0 +1,39 @@
+hr {
+	width: 100%;
+	margin: 0;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1vh 7% 1vh 7%;
+}
+.f-p {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 9vw;
+}
+.f-p img {
+	height: 1.7vw;
+	widht: auto;
+}
+@media(max-width:320px) {
+	footer {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		padding-bottom: 16px;
+		max-width: 320px;
+	}
+	footer p {
+		font-size: 8px;
+	}
+	.f-p {
+		width: 70px;
+	}
+	.f-p img {
+		height: 15px;
+	}
+}

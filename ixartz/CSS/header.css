@@ -1,0 +1,57 @@
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2em 7% 7vw 7%;
+}
+.nav-header {
+	display: flex;
+	align-items: center;
+	height: 4vw;
+}
+#logo {
+	width: 3vw;
+	height: 3vw;
+}
+#ixartz-b {
+	font-size: 2.4vw;
+	height: 3vw;
+}
+.nav-menu {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+	color: var(--text-c);
+	width: 23%;
+	height: 2.1vw;
+	gap: 10%;
+	font-size: 1.5vw;
+}
+.nav-menu a {  
+ 	color: inherit;  
+  	text-decoration: none; 
+} 
+@media (max-width: 320px) {
+	header {
+		max-width: 320px;
+		padding: 19px 12px 19px 12px;
+	}
+	.nav-header{
+		height: 18px;
+	}
+	#logo {
+		width: 18px;
+		height: 18px;
+	}
+	#ixartz-b {
+		font-size: 15px;
+		height: 18px;
+	}
+	.nav-menu {
+		width: 122px;
+		height: 12px;
+		gap: 10px;
+		font-size: 10px;
+		font-weight: 700;
+	}
+}
